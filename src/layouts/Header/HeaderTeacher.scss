@@ -1,0 +1,53 @@
+.navbar-teacher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+
+  .navbar-logo {
+    .logo {
+      width: 100px;
+      flex: 1;
+    }
+  }
+  .back-home {
+    flex: 1;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ 
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    flex: 9;
+    .search-input {
+      width: 460px;
+      padding: 12px 20px;
+      border: 1px solid lightgray;
+      border-radius: 0 50px 50px 0;
+      outline: none;
+      border-left: none;
+      background-color: whitesmoke;
+    }
+
+    .search-button {
+      background-color: whitesmoke;
+      padding: 8px 20px;
+      border: 1px solid lightgray;
+      border-right: none;
+      border-radius: 50px 0 0 50px;
+      cursor: pointer;
+      margin-left: -40px;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        background-color: gainsboro;
+      }
+    }
+  }
+}

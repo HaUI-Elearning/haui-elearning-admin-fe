@@ -1,0 +1,1435 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "https://i.pinimg.com/564x/94/2d/64/942d648f721e5e813c677382289a1693.jpg"
+    },
+    {
+      "id": 2,
+      "url": "https://i.pinimg.com/564x/f9/60/58/f960585baf3176be30cb8dd873737f72.jpg"
+    },
+    {
+      "id": 3,
+      "url": "https://i.pinimg.com/736x/f4/63/2b/f4632b34e33b0be9dade82fe6c8657fd.jpg"
+    },
+    {
+      "id": 4,
+      "url": "https://i.pinimg.com/564x/d5/b8/d0/d5b8d08edb3a398e14adf01dcc3275a9.jpg"
+    },
+    {
+      "id": 5,
+      "url": "https://i.pinimg.com/564x/a9/37/f2/a937f2d317662fd78175f9b27c47c20d.jpg"
+    },
+    {
+      "id": 6,
+      "url": "https://i.pinimg.com/564x/6b/b9/17/6bb9177f1f2075cab554dbb6276f3732.jpg"
+    },
+    {
+      "id": 7,
+      "url": "https://i.pinimg.com/564x/d9/82/4f/d9824ff2b80bbdc298db52a298208a7e.jpg"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "React.js - The Complete Guide",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrk39TM7aN-DDYDwWR9QLNaejt-dDW5P81bg&s",
+      "description": "Master modern React from beginner to advanced! Next.js, Context API, React Query, Redux, Tailwind, advanced patterns",
+      "star": 4.5,
+      "date": "July 2024",
+      "price": "0",
+      "author": "Robert Hederson",
+      "hour": 17,
+      "contents": [
+        "Master React fundamentals including JSX, hooks, and state management to build interactive web applications.",
+        "Use the React Context API for managing global state and avoid prop drilling in your apps.",
+        "Learn Next.js to build server-side rendered and statically generated React apps for optimal performance.",
+        "Work with popular tools like Redux and React Query for state management and data fetching in React.",
+        "Build real-world projects to gain hands-on experience with React and showcase your skills.",
+        "Understand how to use React Router to manage navigation in single-page applications (SPAs).",
+        "Optimize React app performance with techniques like lazy loading and React.memo.",
+        "Deploy your React applications to platforms like Vercel and Netlify for easy and efficient hosting."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Learn Vue.js with expert developer",
+      "thumbnail": "https://www.vuemastery.com/images/facebook_social_image.png",
+      "description": "Vue.js is an awesome JavaScript Framework for building Frontend Applications! VueJS mixes the Best of Angular + React!",
+      "star": 5,
+      "date": "July 2023",
+      "price": "199000",
+      "author": "AI Sweigart",
+      "hour": 3.5,
+      "contents": [
+        "Build Vue.js applications from small projects to large, complex enterprise-level apps.",
+        "Leverage Vue.js for both Multi-Page Applications (MPAs) and Single-Page Applications (SPAs).",
+        "Understand the core theory behind Vue.js and how it works under the hood for better debugging and optimization.",
+        "Learn Vue 3, including the brand-new Composition API for more flexible and maintainable code.",
+        "Master Vue Router to manage navigation and dynamic routing for your Vue.js applications.",
+        "Work with Vuex for state management in larger applications, ensuring smooth data flow and performance.",
+        "Integrate Vue.js with backend technologies and third-party services for full-stack development.",
+        "Build responsive, interactive, and high-performance user interfaces using Vue.js and modern web development tools."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Complete Angular course: Beginner to Pro",
+      "thumbnail": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png",
+      "description": "Develop comprehensive and reactive Angular applications including NgRx, Unit Testing, Signals, and Angular Material.",
+      "star": 4,
+      "date": "September 2024",
+      "price": "0",
+      "hour": 4.7,
+      "author": "Jose Portilla",
+      "contents": [
+        "Learn modern Angular from the ground up, including standalone components and signals in great detail.",
+        "Develop modern, complex, responsive, and scalable web applications using Angular's powerful features.",
+        "Master TypeScript, a modern superset of JavaScript, to write clean and maintainable code.",
+        "Understand Angular's component-based architecture and how to build reusable UI components.",
+        "Work with Angular's powerful HTTP client to send requests, handle responses, and manage API interactions.",
+        "Implement routing in Angular to create dynamic, multi-page applications with nested routes.",
+        "Authenticate users and implement security features, such as JWT authentication and user role management.",
+        "Handle complex forms with Angular's reactive forms module, including form validation and submission."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Complete React, Next.js & TypeScript",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXeYGtxwIGs4Zgzb_NwO17t2JZq5uPpJ2-yQ&s",
+      "description": "Develop React JS web applications including components, state, effect, hooks, React router, reducer, context, etc.",
+      "star": 3,
+      "date": "January 2022",
+      "price": "199000",
+      "hour": 6,
+      "author": "Dr.Angela Yu",
+      "contents": [
+        "Become an advanced, confident, and modern React developer from scratch by mastering React fundamentals and advanced concepts.",
+        "Get job-ready by working with libraries and tools that are widely used in professional React projects, including Redux, React Router, and Styled Components.",
+        "Join my other 1,900,000+ happy students and learn how to build high-quality, production-ready applications.",
+        "Build 10+ beautiful projects, including two huge, professional, real-world applications that demonstrate your skills to employers.",
+        "Learn how to build single-page applications (SPAs) with React Router, including v6.4+ and data loading techniques.",
+        "Understand component-based architecture in React and how to break down large applications into reusable, maintainable components.",
+        "Master state management in React with both functional components and class components using tools like React Context and Redux.",
+        "Improve the performance of your React apps by mastering techniques like lazy loading, code splitting, and optimizing re-renders."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vue 3 in Action: Master the Framework",
+      "thumbnail": "https://asset-cdn.learnyst.com/assets/schools/2410/courses/92665/vue_course_lu39t.png",
+      "description": "Master Vue 3: TypeScript, Composition API only, Vue Router, Pinia, Best Practices!",
+      "star": 3.5,
+      "date": "August 2024",
+      "price": "199000",
+      "hour": 9,
+      "author": "Dev Nirwal",
+      "contents": [
+        "Build amazing Vue.js applications, from small and simple projects to large enterprise-level applications that scale.",
+        "Leverage Vue.js to develop both multi-page applications (MPAs) and single-page applications (SPAs), improving user experience and performance.",
+        "Understand the core theory behind Vue.js, including its reactive data binding system, and apply it to solve real-world problems.",
+        "Learn the latest version of Vue (Vue 3), focusing on its new features like the Composition API, Composition API-based lifecycle hooks, and reactive references.",
+        "Master Vue Router to create dynamic routing for your applications, allowing seamless navigation between different views.",
+        "Manage state in your Vue applications using Vuex or the new Composition API-based approach to create a scalable and maintainable state management system.",
+        "Work with Vue’s ecosystem of tools and libraries, such as Vue CLI, Vue Devtools, and Vue Loader, to streamline development.",
+        "Integrate Vue.js with other technologies like Axios for HTTP requests, Vuetify for UI components, and Firebase for backend services."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Node.js - The Complete Guide",
+      "thumbnail": "https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png",
+      "description": "Master Node.js and build scalable server-side applications.",
+      "star": 4.7,
+      "date": "June 2023",
+      "price": "0",
+      "hour": 15,
+      "author": "Maximilian Schwarzmüller",
+      "contents": [
+        "Understand the core concepts of Node.js, including event-driven architecture, non-blocking I/O, and the single-threaded event loop.",
+        "Learn to build RESTful APIs using Express.js, handling routing, middleware, and HTTP methods to create robust back-end services.",
+        "Implement authentication and authorization in your applications using techniques such as JWT (JSON Web Tokens) and OAuth.",
+        "Deploy Node.js applications to production using cloud services like AWS, Heroku, or DigitalOcean, and manage environment variables for different environments.",
+        "Handle asynchronous programming in Node.js with callbacks, promises, and async/await to manage I/O operations efficiently.",
+        "Work with databases like MongoDB or PostgreSQL, integrating them with your Node.js applications to store and retrieve data.",
+        "Learn to use Node.js with popular tools and libraries such as Nodemailer for email functionality, and Multer for file uploads.",
+        "Optimize and scale your Node.js applications to handle large volumes of traffic by learning about caching, clustering, and load balancing."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Python for Backend Development",
+      "thumbnail": "https://www.classcentral.com/report/wp-content/uploads/2023/09/bcg_python_banner.png",
+      "description": "Learn how to use Python for backend development with Flask and Django.",
+      "star": 4.8,
+      "date": "July 2024",
+      "price": "0",
+      "hour": 10,
+      "author": "Jane Doe",
+      "contents": [
+        "Build web applications with Flask, focusing on routing, templating, and handling HTTP requests and responses.",
+        "Understand the principles of RESTful APIs, including request methods (GET, POST, PUT, DELETE), status codes, and how to structure your API endpoints.",
+        "Learn to work with databases using SQLAlchemy, including how to define models, perform migrations, and interact with databases like SQLite, PostgreSQL, or MySQL.",
+        "Implement user authentication and security by integrating Flask extensions like Flask-Login, Flask-Security, and Flask-WTF for form handling.",
+        "Create reusable components and modules in Flask by structuring your application with blueprints, making it scalable and maintainable.",
+        "Handle file uploads and static files in Flask applications, implementing features like image uploads, user profile pictures, and serving static assets.",
+        "Learn about Flask's error handling mechanisms, including custom error pages, logging, and managing exceptions effectively.",
+        "Deploy Flask applications to production using platforms like Heroku, AWS, or DigitalOcean, and configure production settings for security and performance."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Java Spring Boot for Beginners",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwXoAYW9OrETvFYQABveIXo97JdxTnVR1tYg&s",
+      "description": "Create Java web applications using Spring Boot framework.",
+      "star": 4.5,
+      "date": "August 2021",
+      "price": "199000",
+      "hour": 12,
+      "author": "John Smith",
+      "contents": [
+        "Learn the basics of the Spring Boot framework, including setup, configuration, and creating your first Spring Boot application.",
+        "Create RESTful services with Spring MVC, understanding how to design, implement, and test endpoints using RESTful principles.",
+        "Connect to databases using Spring Data JPA, including how to configure repositories, manage entities, and perform CRUD operations.",
+        "Deploy Spring Boot applications to various environments, including local machines, cloud platforms, and using tools like Docker.",
+        "Understand the principles of Spring Security to implement authentication and authorization in your Spring Boot applications.",
+        "Work with Spring Boot's Actuator to monitor and manage application health, metrics, and logs for better observability.",
+        "Handle asynchronous processing in Spring Boot with features like @Async and integrating message queues (e.g., RabbitMQ, Kafka).",
+        "Learn how to build and manage microservices with Spring Boot, using Spring Cloud for service discovery, configuration, and resilience."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ruby on Rails - The Complete Course",
+      "thumbnail": "https://d1jnzwil5g8le2.cloudfront.net/content/images/thumbs/0001520_ruby-programming-fundamentals_800.jpeg",
+      "description": "Develop robust web applications using Ruby on Rails.",
+      "star": 4.6,
+      "date": "September 2022",
+      "price": "199000",
+      "hour": 14,
+      "author": "Emily Johnson",
+      "contents": [
+        "Understand the MVC architecture in Rails, including how models, views, and controllers interact to create a seamless application flow.",
+        "Build a complete web application from scratch using Ruby on Rails, from setting up the environment to deploying the app live.",
+        "Learn to use Rails gems for rapid development, including popular gems like Devise for authentication and Pundit for authorization.",
+        "Deploy your application to Heroku, including database setup, scaling, and monitoring your app in production.",
+        "Understand the ActiveRecord ORM to interact with databases, manage migrations, and work with associations.",
+        "Implement form handling, validations, and error messages in Rails to ensure smooth user experience and data integrity.",
+        "Learn to integrate third-party APIs and services into your Rails application to extend its functionality.",
+        "Explore Rails testing frameworks (RSpec, Minitest) to write unit and integration tests, ensuring your app’s stability and reliability."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Django for Backend Development",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuiHUZA3fPfLpKg0iF0STFst1wsDtE7di1iQ&s",
+      "description": "Build powerful web applications with Django framework.",
+      "star": 4.7,
+      "date": "October 2023",
+      "price": "0",
+      "hour": 11,
+      "author": "Michael Brown",
+      "contents": [
+        "Learn the fundamentals of Django, including its architecture and core components like models, views, templates, and URLs.",
+        "Build a fully functional blog application, including features like creating, editing, deleting posts, and managing categories.",
+        "Implement user authentication and permissions, allowing users to sign up, log in, and manage their profiles with different access levels.",
+        "Create REST APIs using Django Rest Framework, including setting up serializers, viewsets, and routers for building powerful APIs.",
+        "Learn how to use Django’s built-in admin interface to manage content and users without writing extra code.",
+        "Understand how to handle static files and media in Django, allowing you to serve images, documents, and other file types.",
+        "Learn to work with databases in Django using migrations, querying data with Django ORM, and optimizing database performance.",
+        "Deploy your Django application to production, including setting up a web server (e.g., Gunicorn), configuring a database (e.g., PostgreSQL), and managing settings with environment variables."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mastering Docker for DevOps",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3D_sinxJXfm9qvSk4BuYOoKirGF4nk7oslQ&s",
+      "description": "Learn to build, deploy, and manage applications using Docker in DevOps pipelines.",
+      "star": 4,
+      "date": "March 2024",
+      "price": "249000",
+      "hour": 8,
+      "author": "John Doe",
+      "contents": [
+        "Build Docker images and containers for modern applications, understanding the Dockerfile syntax and how to create optimized images.",
+        "Learn to manage multi-container applications with Docker Compose, simplifying the orchestration and scaling of complex applications.",
+        "Explore Docker networking, including how to connect containers, manage network modes (bridge, host, overlay), and troubleshoot networking issues.",
+        "Create custom Dockerfiles to automate the build process and optimize Docker builds for faster deployments and smaller images.",
+        "Integrate Docker into CI/CD pipelines, automating the deployment process and ensuring consistent environments across development and production.",
+        "Understand Docker storage management, including the use of volumes for persistent data storage and the best practices for data management in containers.",
+        "Learn container orchestration with Docker Swarm and Kubernetes, scaling applications across clusters and ensuring high availability.",
+        "Deploy Dockerized applications to the cloud, including setting up Docker on cloud platforms like AWS, Azure, or Google Cloud."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Kubernetes Essentials for DevOps",
+      "thumbnail": "https://media.licdn.com/dms/image/v2/C5612AQE59YCsuFRcAw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1583418462663?e=2147483647&v=beta&t=RblHy4RJ_Q_nEw5kBHjaKmDyTL6bKd6hW0LfVSiRLds",
+      "description": "Become proficient in Kubernetes, the most popular container orchestration tool.",
+      "star": 5,
+      "date": "April 2023",
+      "price": "299000",
+      "hour": 10,
+      "author": "Jane Smith",
+      "contents": [
+        "Understand the Kubernetes architecture and its key components such as the Master node, Worker nodes, API server, Scheduler, and etcd.",
+        "Learn how to deploy and manage applications on Kubernetes using `kubectl` and declarative configuration files.",
+        "Work with Kubernetes Pods, Services, and Deployments, including how to create and scale Pods, expose services, and manage deployments effectively.",
+        "Set up Helm charts for package management, simplifying the deployment of complex applications by using reusable templates.",
+        "Implement monitoring and logging in Kubernetes clusters using tools like Prometheus, Grafana, and Fluentd to track application performance and troubleshoot issues.",
+        "Learn to configure and use Kubernetes namespaces to organize and isolate different environments and applications within the same cluster.",
+        "Understand and implement Kubernetes persistent storage with Persistent Volumes (PV) and Persistent Volume Claims (PVC) for stateful applications.",
+        "Manage Kubernetes secrets and ConfigMaps for securely storing configuration data and sensitive information in your clusters.",
+        "Explore Kubernetes networking, including setting up Network Policies and understanding the ClusterIP, NodePort, and LoadBalancer types of services.",
+        "Learn about autoscaling in Kubernetes using Horizontal Pod Autoscaler (HPA) and Cluster Autoscaler for dynamic resource scaling based on demand."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "CI/CD Pipelines with Jenkins",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/4551994_e265_2.jpg",
+      "description": "Build, test, and deploy automation using Jenkins in a DevOps workflow.",
+      "star": 4,
+      "date": "May 2022",
+      "price": "0",
+      "hour": 7,
+      "author": "David Johnson",
+      "contents": [
+        "Install and configure Jenkins on different environments such as local machines, virtual machines, and cloud platforms like AWS and Azure.",
+        "Learn how to create and manage Jenkins pipelines using both declarative and scripted pipeline syntax.",
+        "Implement build automation and testing with Jenkins, including setting up Jenkins jobs for compiling code, running tests, and generating reports.",
+        "Integrate Jenkins with Git and other source control management (SCM) tools like Bitbucket and GitHub to automate build triggers on code commits.",
+        "Deploy applications with Jenkins to Kubernetes, Docker, or cloud environments using Jenkins pipelines for continuous delivery and continuous deployment (CI/CD).",
+        "Set up Jenkins for continuous integration by automating the process of compiling, testing, and packaging software applications with every change in the repository.",
+        "Implement Jenkinsfile as code to define and manage pipelines in version control, making it easier to manage complex workflows and maintain consistency.",
+        "Learn how to integrate Jenkins with other DevOps tools such as Docker, Ansible, and Terraform for end-to-end automation and infrastructure management.",
+        "Understand the use of Jenkins plugins to extend functionality, such as Slack notifications, GitHub webhooks, and security tools for vulnerability scanning.",
+        "Monitor Jenkins builds and jobs to track the success or failure of automation processes, using tools like Jenkins Blue Ocean and third-party integrations."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Terraform for Infrastructure as Code",
+      "thumbnail": "https://www.cromacampus.com/public/uploads/Blog/2022/04/week_3/terraform-certification-1.jpg",
+      "description": "Learn Terraform to manage infrastructure in a scalable, automated way.",
+      "star": 4,
+      "date": "June 2024",
+      "price": "219000",
+      "hour": 9,
+      "author": "Michael Brown",
+      "contents": [
+        "Write infrastructure as code using HashiCorp Configuration Language (HCL) with Terraform to automate the provisioning and management of infrastructure.",
+        "Provision cloud resources in AWS, Azure, and Google Cloud, including computing instances, databases, networking, and storage using Terraform.",
+        "Automate infrastructure provisioning and updates by creating reusable and scalable infrastructure templates that can be version-controlled and reused across environments.",
+        "Learn state management in Terraform, including how Terraform keeps track of infrastructure state and how to manage state files securely, especially in collaborative environments.",
+        "Work with Terraform modules and best practices to structure code for better readability, reusability, and maintainability.",
+        "Understand the process of writing Terraform providers for integrating with custom or third-party APIs to manage resources outside of cloud providers.",
+        "Implement Terraform workspaces to manage different environments (such as dev, staging, production) using separate configurations and state files.",
+        "Learn how to handle secrets and sensitive data in Terraform using variables, environment variables, and secret management tools like Vault.",
+        "Integrate Terraform with CI/CD pipelines to automate infrastructure deployment as part of the software delivery lifecycle, ensuring consistent and repeatable environments.",
+        "Use Terraform's built-in plan and apply workflow to ensure safe, predictable changes to your infrastructure before deploying them to production.",
+        "Learn Terraform's lifecycle management features to handle resource dependencies, resource modification, and resource destruction while ensuring minimal downtime.",
+        "Monitor and troubleshoot Terraform deployments, including using logs, state inspection tools, and error handling techniques to diagnose and fix issues.",
+        "Understand the use of Terraform Cloud and Enterprise features for collaborative workflows, including team collaboration, version control, and policy enforcement."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Advanced DevOps Automation with Ansible",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/4343054_943c_12.jpg",
+      "description": "Automate server configuration, deployment, and orchestration with Ansible in DevOps workflows.",
+      "star": 5,
+      "date": "July 2022",
+      "price": "259000",
+      "hour": 12,
+      "author": "Emily Davis",
+      "contents": [
+        "Introduction to Ansible and automation principles, including its key concepts like playbooks, roles, tasks, and modules.",
+        "Learn how to create and structure Ansible playbooks to automate infrastructure tasks efficiently and consistently.",
+        "Develop and manage roles in Ansible to organize and reuse automation logic across multiple playbooks and environments.",
+        "Automate cloud resources (AWS, Azure, Google Cloud) and on-premises servers using Ansible, including provisioning, configuration, and management tasks.",
+        "Integrate Ansible with Jenkins for CI/CD pipelines, automating the deployment and configuration of applications and infrastructure.",
+        "Learn to use Ansible Tower for centralized management of Ansible automation tasks and scaling automation in large environments.",
+        "Explore best practices for writing efficient and maintainable Ansible code, including using variables, templates, and conditionals.",
+        "Optimize Ansible automation for DevOps pipelines, streamlining application deployment, configuration management, and infrastructure provisioning.",
+        "Use Ansible for system configuration management, ensuring servers are configured in a repeatable and consistent manner.",
+        "Learn about Ansible's idempotence, ensuring that running playbooks multiple times results in the same system state without unintended changes.",
+        "Implement Ansible's inventory management for organizing hosts and managing different environments (e.g., development, staging, production).",
+        "Automate application deployment with Ansible, including tasks like service management, database setup, and configuration updates.",
+        "Integrate Ansible with monitoring tools to ensure your infrastructure is configured and operating as expected.",
+        "Learn how to troubleshoot and debug Ansible playbooks using built-in tools like verbose mode and Ansible's logging functionality.",
+        "Work with Ansible Galaxy to reuse community-contributed roles and collections for faster automation development.",
+        "Deploy and manage containers with Ansible, automating tasks related to Docker, Kubernetes, and container orchestration platforms."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Data Science with Python and Machine Learning",
+      "thumbnail": "https://i0.wp.com/coursecentral.co.uk/wp-content/uploads/2023/07/Python-for-Machine-Learning-and-Data-Science-1.png?fit=%2C&ssl=1",
+      "description": "Learn the fundamentals of Data Science with Python and build Machine Learning models.",
+      "star": 5,
+      "date": "March 2024",
+      "price": "1000000",
+      "hour": 12,
+      "author": "Dr. Jane Doe",
+      "contents": [
+        "Learn Python from scratch, starting with the basics of programming and progressing to advanced topics like object-oriented programming and data manipulation.",
+        "Master key machine learning algorithms, including regression, classification, clustering, and deep learning techniques such as neural networks and decision trees.",
+        "Understand how to preprocess data, including handling missing values, data normalization, and feature engineering to improve model performance.",
+        "Gain experience with popular Python libraries like NumPy, pandas, Matplotlib, Seaborn, and Scikit-learn to manipulate and visualize data effectively.",
+        "Work on hands-on projects using real-world datasets to reinforce your understanding of data cleaning, analysis, and visualization techniques.",
+        "Explore advanced data visualization techniques, creating interactive plots and dashboards using libraries like Plotly and Dash.",
+        "Gain a solid foundation in statistics and probability, covering topics such as hypothesis testing, distributions, p-values, and confidence intervals for better decision-making.",
+        "Learn how to evaluate machine learning models, using metrics like accuracy, precision, recall, and the confusion matrix to assess performance.",
+        "Understand the importance of model selection, cross-validation, and tuning hyperparameters to optimize your machine learning models.",
+        "Dive into natural language processing (NLP) to analyze and extract insights from textual data, including text cleaning, tokenization, and sentiment analysis.",
+        "Learn about time series analysis and forecasting to predict future trends based on historical data, including ARIMA and exponential smoothing techniques.",
+        "Understand how to build recommendation systems using collaborative filtering and content-based filtering to provide personalized suggestions.",
+        "Explore deep learning frameworks such as TensorFlow and Keras to develop neural networks and build complex models for tasks like image recognition and natural language processing.",
+        "Learn to deploy machine learning models into production, ensuring that your models can serve real-time predictions and scale with new data.",
+        "Understand ethical issues in data science, including bias in data, model transparency, and privacy concerns when working with sensitive datasets."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Data Visualization with Python and Seaborn",
+      "thumbnail": "https://i.ytimg.com/vi/zv5Rtrq9Dfc/hqdefault.jpg",
+      "description": "Master data visualization using Python and the Seaborn library to create stunning visuals.",
+      "star": 4,
+      "date": "February 2023",
+      "price": "0",
+      "hour": 8,
+      "author": "John Smith",
+      "contents": [
+        "Create eye-catching and interactive visualizations using the Seaborn library to present complex data in a simple and understandable way.",
+        "Learn how to preprocess, clean, and manipulate data for effective visual storytelling, including handling missing values and outliers.",
+        "Build dynamic, real-time dashboards to present data insights to stakeholders using Seaborn and additional Python libraries like Dash or Streamlit.",
+        "Explore real-world datasets from sources like Kaggle and open data platforms to practice visual analysis techniques.",
+        "Understand how to choose the right visualization techniques for different types of data, such as histograms for distributions, box plots for outliers, and scatter plots for relationships.",
+        "Learn to customize visualizations with different color palettes, styles, and themes to make them aesthetically pleasing and easy to interpret.",
+        "Optimize your visualizations for clear communication, ensuring your charts are easy to understand and tell the story of the data clearly.",
+        "Combine Seaborn with other Python libraries like Matplotlib to enhance your plots and add more advanced features, such as multiple subplots and complex annotations.",
+        "Master advanced visualization techniques such as heatmaps, pair plots, and violin plots for analyzing correlations and distributions in large datasets."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Intro to Data Science with R",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdB4vPdoQH-YutHqtVyIje-dHJRiW7e_4SoA&s",
+      "description": "Explore Data Science using R for statistical computing and data analysis.",
+      "star": 4,
+      "date": "January 2023",
+      "price": "900000",
+      "hour": 10,
+      "author": "Dr. Mark Johnson",
+      "contents": [
+        "Learn the basics of R programming for data analysis and data manipulation, including working with R's built-in functions and libraries for statistics and data science.",
+        "Understand key statistical techniques such as regression, hypothesis testing, ANOVA (Analysis of Variance), and time series analysis, and how to apply them to solve real-world problems.",
+        "Work with real-world datasets from sources like government databases, social media platforms, and more to gain practical experience and enhance your analysis skills.",
+        "Build predictive models in R using linear and logistic regression, decision trees, and other supervised learning algorithms, and visualize the results with R's powerful plotting libraries.",
+        "Learn how to clean, preprocess, and transform data using R's packages like dplyr, tidyr, and stringr to prepare it for analysis and modeling.",
+        "Explore various visualization techniques using ggplot2 to make data insights clearer and more interpretable, including scatter plots, bar charts, and heatmaps.",
+        "Understand the principles of data wrangling and reshaping using tidyr and dplyr, making it easier to work with messy or incomplete data.",
+        "Implement statistical tests to draw meaningful conclusions from your data, and understand when and why to apply different statistical techniques based on your dataset and objectives.",
+        "Use R Markdown and Shiny to create interactive reports and dashboards, allowing you to share your findings with stakeholders and colleagues in a dynamic and engaging way."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Advanced Machine Learning with TensorFlow",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMEQyQoXNUnj58J-9THBuNPRGX2vTDMjI-fA&s",
+      "description": "Dive deep into machine learning with TensorFlow, building complex models and neural networks.",
+      "star": 5,
+      "date": "April 2024",
+      "price": "1200000",
+      "hour": 18,
+      "author": "Dr. Emily Davis",
+      "contents": [
+        "Master TensorFlow and Keras for building powerful neural networks and deep learning models, with a focus on model architecture, optimization, and deployment.",
+        "Learn advanced machine learning techniques such as reinforcement learning, transfer learning, and generative adversarial networks (GANs), and understand how to implement them in real-world applications.",
+        "Build and deploy deep learning models for a variety of applications, including image recognition, natural language processing (NLP), and time series forecasting, using TensorFlow and Keras.",
+        "Optimize and fine-tune machine learning models for higher accuracy and performance, exploring hyperparameter tuning, model selection, and advanced regularization techniques.",
+        "Understand the theory behind deep learning models, including neural network architectures, activation functions, loss functions, and backpropagation, and apply this knowledge to design custom solutions.",
+        "Explore the use of convolutional neural networks (CNNs) for image and video analysis, and learn how to implement techniques like image classification, object detection, and segmentation.",
+        "Learn to use recurrent neural networks (RNNs), LSTMs, and GRUs for sequence modeling and forecasting, including applications in speech recognition and language modeling.",
+        "Implement techniques like dropout, batch normalization, and data augmentation to improve model generalization and prevent overfitting in complex deep learning tasks.",
+        "Utilize TensorFlow Extended (TFX) for productionizing machine learning models and integrating them into scalable pipelines, ensuring your models are reliable and efficient for real-time applications."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Data Science for Business Analysis",
+      "thumbnail": "https://solutionsreview.com/business-intelligence/files/2022/01/MicrosoftTeams-image-3.jpg",
+      "description": "Use data science techniques to solve real business problems and make data-driven decisions.",
+      "star": 4,
+      "date": "January 2024",
+      "price": "950000",
+      "hour": 14,
+      "author": "Sarah Lee",
+      "contents": [
+        "Analyze business data to discover trends, patterns, and key insights using statistical methods, machine learning algorithms, and visualization tools.",
+        "Build business dashboards to track performance and make data-driven decisions, using tools like Power BI, Tableau, and Excel to visualize key performance indicators (KPIs).",
+        "Learn how to use SQL for querying databases and integrating data from multiple sources, improving your ability to extract, manipulate, and analyze large datasets.",
+        "Understand the role of machine learning in business forecasting and customer analysis, and apply techniques like regression, clustering, and decision trees to predict future trends.",
+        "Learn how to visualize business data effectively using Power BI or Tableau, creating interactive and engaging dashboards to present to non-technical stakeholders.",
+        "Apply predictive analytics techniques to improve decision-making and optimize business processes, focusing on demand forecasting, sales optimization, and inventory management.",
+        "Work on case studies to solve real-world business problems using data science methods, such as analyzing customer behavior, improving operational efficiency, and identifying new market opportunities.",
+        "Understand the impact of big data, AI, and cloud technologies on modern business operations and strategy, and learn how to leverage these technologies for competitive advantage.",
+        "Implement key business intelligence (BI) techniques to evaluate market trends, customer segmentation, and financial performance, ensuring actionable insights are derived from data."
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Complete iOS App Development with SwiftUI",
+      "thumbnail": "https://supersourcing.com/blog/wp-content/uploads/2023/01/Introduction-to-iOS-App-Development-with-SwiftUI_blog-images.png",
+      "description": "Learn to build native iOS apps using SwiftUI, the future of iOS app development.",
+      "star": 5,
+      "date": "June 2024",
+      "price": "0",
+      "hour": 15,
+      "author": "John Smith",
+      "contents": [
+        "Master SwiftUI framework for building beautiful and responsive iOS apps.",
+        "Understand the core principles of app design and development for iOS.",
+        "Build real-world applications using advanced features like CoreData, Combine, and Swift.",
+        "Deploy apps to the App Store and learn best practices for mobile development.",
+        "Learn how to work with system frameworks like UIKit and SwiftUI for seamless integration.",
+        "Design user interfaces with SwiftUI and integrate animations to create smooth transitions.",
+        "Explore techniques for handling network requests and integrating APIs with your app.",
+        "Implement core data management with Swift to store and retrieve user data efficiently.",
+        "Learn how to optimize app performance using best practices for memory management.",
+        "Understand app accessibility and localization for global users."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Android Development with Kotlin",
+      "thumbnail": "https://i.ytimg.com/vi/Iz08OTTjR04/sddefault.jpg",
+      "description": "Develop high-performance Android applications with Kotlin, Google’s preferred language for Android.",
+      "star": 4.5,
+      "date": "May 2024",
+      "price": "950000",
+      "hour": 12,
+      "author": "Dr. Emily Davis",
+      "contents": [
+        "Learn Kotlin programming for Android and build robust mobile applications.",
+        "Explore Android Studio for app development, debugging, and testing.",
+        "Integrate RESTful APIs and work with databases to store data locally.",
+        "Understand best practices for optimizing Android apps and publishing them on Google Play.",
+        "Create responsive layouts using XML and learn how to implement views in Kotlin.",
+        "Use Android’s UI components to enhance user interaction and experience.",
+        "Handle background tasks such as data syncing and push notifications.",
+        "Understand how to implement real-time features with Firebase Cloud Messaging.",
+        "Learn about Android’s security best practices, including encryption and data protection.",
+        "Deploy apps to Google Play and manage app versions and updates."
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Cross-Platform Mobile App Development with Flutter",
+      "thumbnail": "https://cdn.prod.website-files.com/5f841209f4e71b2d70034471/60bb4a2e143f632da3e56aea_Flutter%20app%20development%20(2).png",
+      "description": "Create beautiful and high-performance cross-platform mobile apps with Flutter and Dart.",
+      "star": 5,
+      "date": "July 2024",
+      "price": "1200000",
+      "hour": 18,
+      "author": "Dr. Alice Brown",
+      "contents": [
+        "Master the Flutter framework for building cross-platform mobile apps.",
+        "Learn Dart, the language used in Flutter, and explore the widget-based UI system.",
+        "Build apps for both Android and iOS from a single codebase.",
+        "Understand the integration of Firebase for real-time data and cloud functionality.",
+        "Create custom widgets to enhance the user experience and maintain code readability.",
+        "Learn about state management techniques including Provider and Riverpod.",
+        "Handle platform-specific implementations for iOS and Android using platform channels.",
+        "Implement advanced navigation strategies, such as deep linking and nested navigation.",
+        "Explore Flutter’s testing framework to write unit and integration tests for your apps.",
+        "Optimize Flutter apps for performance, including reducing build size and improving runtime efficiency."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "React Native for Mobile Development",
+      "thumbnail": "https://dicecamp-testing.fra1.cdn.digitaloceanspaces.com/4949/React-Native-Banner.jpg",
+      "description": "Learn React Native to develop mobile apps for iOS and Android with a single JavaScript codebase.",
+      "star": 4,
+      "date": "April 2024",
+      "price": "1000000",
+      "hour": 14,
+      "author": "Mark Johnson",
+      "contents": [
+        "Build native mobile applications using React Native and JavaScript.",
+        "Integrate native modules and third-party libraries to extend functionality.",
+        "Work with Redux for state management in mobile apps.",
+        "Deploy and publish apps to the App Store and Google Play.",
+        "Design intuitive user interfaces with React Native’s built-in components.",
+        "Learn about asynchronous data handling with Redux Thunk or Saga.",
+        "Understand how to use Expo for rapid app development and testing.",
+        "Explore cross-platform APIs and how to manage device-specific functionalities.",
+        "Implement deep linking and navigate between screens using React Navigation.",
+        "Optimize mobile performance using techniques like lazy loading and memory management."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Advanced Mobile App Development with Xamarin",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgjBcdLIIU03JjMseLKya1VDgLltiNUgFGgA&s",
+      "description": "Develop cross-platform mobile applications for iOS, Android, and Windows using Xamarin.",
+      "star": 3,
+      "date": "August 2024",
+      "price": "1050000",
+      "hour": 16,
+      "author": "Sara Lee",
+      "contents": [
+        "Learn Xamarin for building cross-platform mobile apps using C# and .NET.",
+        "Understand mobile UI development and platform-specific customization in Xamarin.",
+        "Build scalable apps for iOS, Android, and Windows from a shared codebase.",
+        "Learn best practices for debugging, testing, and publishing your apps.",
+        "Integrate Xamarin.Forms for building flexible and dynamic user interfaces.",
+        "Understand how to use Xamarin.Essentials for accessing device features like geolocation.",
+        "Work with Xamarin to manage app lifecycle and memory to optimize performance.",
+        "Explore data storage solutions, including SQLite and cloud databases, for mobile apps.",
+        "Learn how to set up continuous integration and delivery (CI/CD) pipelines for mobile apps.",
+        "Publish apps to App Store, Google Play, and Microsoft Store, managing app versions and updates."
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Introduction to Cloud Computing",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJrtTaLd3JMW6aNCy9ZitCPQHWmszO6E4_ng&s",
+      "description": "Learn the fundamentals of cloud computing, including cloud architecture and services.",
+      "star": 3.4,
+      "date": "January 2022",
+      "price": "0",
+      "hour": 12,
+      "author": "John Smith",
+      "contents": [
+        "Understand different cloud service models like IaaS (Infrastructure as a Service), PaaS (Platform as a Service), and SaaS (Software as a Service).",
+        "Explore cloud deployment models, such as private, public, and hybrid clouds, and understand when to use each model for different business needs.",
+        "Learn how to set up and manage cloud services using popular cloud platforms like AWS and Azure, including server provisioning and configuration.",
+        "Understand cloud security concepts, including access management, encryption, and data protection techniques to secure cloud resources.",
+        "Learn how to scale applications effectively in the cloud to meet demand during traffic spikes or high usage periods while minimizing costs.",
+        "Master cloud storage solutions, including object storage, block storage, and file storage, and understand their use cases in different cloud environments.",
+        "Explore cloud-based networking, including setting up virtual private networks (VPNs), managing firewalls, and connecting cloud infrastructure to on-premises systems.",
+        "Discover cloud monitoring and management tools for tracking resource usage, performance metrics, and cost optimization."
+      ]
+    },
+    {
+      "id": 27,
+      "name": "AWS Certified Solutions Architect - Associate",
+      "thumbnail": "https://www.whizlabs.com/blog/wp-content/uploads/2022/08/AWS-Solutions-Architect-Associate-exam-tips-1-1024x576.webp",
+      "description": "Prepare for the AWS Certified Solutions Architect exam and master AWS cloud services.",
+      "star": 3.5,
+      "date": "February 2024",
+      "price": "1500000",
+      "hour": 18,
+      "author": "David Brown",
+      "contents": [
+        "Learn to design scalable, highly available, and fault-tolerant systems on AWS, leveraging key AWS services such as EC2, S3, and RDS.",
+        "Understand core AWS services, including networking, compute, storage, and security tools that are essential for building a secure and reliable cloud environment.",
+        "Master Virtual Private Cloud (VPC) setup, security groups, subnets, route tables, and Internet Gateways to create robust network architectures.",
+        "Learn how to implement cost-effective architectures using AWS pricing models, including Reserved Instances, Spot Instances, and Auto Scaling for cost management.",
+        "Utilize AWS Auto Scaling and Elastic Load Balancer (ELB) to automatically adjust resources based on demand, ensuring high availability and optimal performance.",
+        "Learn to secure AWS environments using Identity and Access Management (IAM) for secure access control and implementing best practices for security configuration.",
+        "Monitor and manage cloud infrastructure with tools like Amazon CloudWatch, AWS CloudTrail, and AWS Config to maintain optimal operation and compliance.",
+        "Prepare for the AWS Solutions Architect certification exam by completing hands-on labs, practice exams, and case studies."
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Azure Cloud Fundamentals",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/6108145_3d98_6.jpg",
+      "description": "Get hands-on with Microsoft Azure and learn how to deploy and manage cloud services.",
+      "star": 4,
+      "date": "January 2024",
+      "price": "1300000",
+      "hour": 15,
+      "author": "Anna Williams",
+      "contents": [
+        "Deploy and manage virtual machines, storage, and databases in Azure, understanding how to select the appropriate VM sizes and storage options for workloads.",
+        "Explore the core components of Azure networking services, including virtual networks, network security groups, and VPNs for securely connecting resources across regions.",
+        "Learn how to create and manage Azure Resource Groups, which allow you to organize and manage resources efficiently.",
+        "Gain hands-on experience with Azure's container services like Azure Kubernetes Service (AKS) for orchestrating and managing containerized applications.",
+        "Discover how to work with Azure Active Directory (AD) to manage identity and access across the Azure environment, including Multi-Factor Authentication (MFA) and role-based access control.",
+        "Understand Azure’s cloud storage options like Blob Storage, Disk Storage, and File Storage and how to choose the right solution for different types of data.",
+        "Learn to implement monitoring, diagnostics, and logging using Azure Monitor and Log Analytics to ensure the health and security of deployed resources.",
+        "Explore cost management tools in Azure to track usage, forecast expenses, and manage resource spending to avoid overages."
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Google Cloud Platform (GCP) for Beginners",
+      "thumbnail": "https://i.ytimg.com/vi/vACTtmLWiQY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDGmM3ZoK_2ZPEvlk-QcAfjSB9qnQ",
+      "description": "Begin your journey with Google Cloud Platform and master essential cloud skills.",
+      "star": 4.4,
+      "date": "April 2024",
+      "price": "1250000",
+      "hour": 14,
+      "author": "Michael Harris",
+      "contents": [
+        "Explore Google Cloud's infrastructure, including Compute Engine, App Engine, and Cloud Functions to design serverless architectures and scalable cloud applications.",
+        "Learn how to set up and manage virtual machines on Google Cloud and configure Kubernetes clusters for containerized applications.",
+        "Understand how to use Google Cloud's networking services like Virtual Private Cloud (VPC), Cloud Load Balancing, and Interconnect to build high-performance applications.",
+        "Get hands-on experience with cloud storage services such as Cloud Storage, Cloud SQL, and BigQuery to manage and analyze large datasets.",
+        "Master Google Cloud’s security best practices, including Identity and Access Management (IAM), service accounts, and data encryption to safeguard cloud resources.",
+        "Learn to leverage Google Cloud's Big Data and Machine Learning services to build intelligent applications that scale effortlessly.",
+        "Understand how to use Google Cloud’s cost management tools to monitor resource usage, set budgets, and optimize your cloud spend.",
+        "Deploy applications with continuous integration and continuous deployment (CI/CD) pipelines using Google Cloud’s DevOps tools."
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Introduction to Cybersecurity",
+      "thumbnail": "https://static-assets.codecademy.com/assets/course-landing-page/meta/16x9/introduction-to-cybersecurity.jpg",
+      "description": "Learn the essentials of cybersecurity, including threat analysis and basic defense techniques.",
+      "star": 3.7,
+      "date": "January 2023",
+      "price": "0",
+      "hour": 12,
+      "author": "Emily Turner",
+      "contents": [
+        "Understand the core concepts of cybersecurity, including key principles of confidentiality, integrity, and availability.",
+        "Learn about network security and how firewalls, encryption, and VPNs protect data.",
+        "Explore common types of cyber attacks such as phishing, ransomware, and denial of service.",
+        "Learn the basics of ethical hacking and penetration testing techniques.",
+        "Understand how to assess vulnerabilities in a network or system using common scanning tools.",
+        "Study how to protect personal information online, including secure password management.",
+        "Introduction to risk management and how to develop security protocols for a business.",
+        "Learn how to respond to common security incidents and mitigate damage from cyber attacks."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Certified Ethical Hacker (CEH)",
+      "thumbnail": "https://trainingheights.com/wp-content/uploads/2024/05/CEH-V12.jpeg",
+      "description": "Prepare for the CEH certification exam and learn ethical hacking techniques to secure systems.",
+      "star": 5,
+      "date": "February 2022",
+      "price": "1600000",
+      "hour": 20,
+      "author": "Benjamin Scott",
+      "contents": [
+        "Learn the methodologies ethical hackers use to perform vulnerability assessments and penetration testing.",
+        "Master techniques for ethical hacking, including exploiting network weaknesses and systems vulnerabilities.",
+        "Understand malware analysis and how to detect and prevent viruses, worms, and trojans.",
+        "Learn the intricacies of securing wireless networks, including common attack vectors and prevention methods.",
+        "Study web application security to understand SQL injection, XSS, and other common vulnerabilities.",
+        "Get familiar with cryptography and how it is used to secure data during communication.",
+        "Explore mobile security issues and how ethical hackers assess mobile devices for vulnerabilities.",
+        "Prepare for the CEH exam by studying past questions, test-taking strategies, and key security concepts.",
+        "Learn about the legal and ethical responsibilities of an ethical hacker and the importance of compliance."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Advanced Network Security",
+      "thumbnail": "https://courses.wscubetech.com/s/store/courses/63b3dd0de4b059efb06e690f/cover.jpg?v=3",
+      "description": "Learn advanced techniques in network security, including threat prevention and response.",
+      "star": 4.4,
+      "date": "March 2023",
+      "price": "1400000",
+      "hour": 18,
+      "author": "Chris Martin",
+      "contents": [
+        "Learn advanced network security protocols, including the implementation of VPNs, IPSec, and SSL/TLS.",
+        "Study intrusion detection and prevention systems (IDS/IPS) and how they protect against external threats.",
+        "Understand network segmentation and its role in limiting attack surfaces and improving security.",
+        "Explore techniques for securing enterprise-level networks and preventing data exfiltration.",
+        "Learn how to configure and manage firewalls for enhanced network security and threat detection.",
+        "Understand the role of honeypots and other deception technologies in defending against cybercriminals.",
+        "Learn how to use network forensics tools to investigate security incidents and identify malicious activities.",
+        "Study incident response and how to formulate a network defense plan to mitigate security risks.",
+        "Learn about emerging network security trends and tools, including machine learning and AI in threat detection."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Cybersecurity for Cloud Environments",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQAHG5RMYjauvAlQ-JbvjTHbPn3DBULJ1UdQ&s",
+      "description": "Specialize in securing cloud environments and understanding cloud-specific threats.",
+      "star": 4.25,
+      "date": "April 2024",
+      "price": "0",
+      "hour": 15,
+      "author": "Grace Martinez",
+      "contents": [
+        "Learn cloud security models such as IaaS, PaaS, and SaaS, and understand the shared responsibility model.",
+        "Understand the challenges and vulnerabilities associated with cloud environments, including data breaches and misconfigurations.",
+        "Study cloud-specific threats and attacks, including data leakage, account hijacking, and denial of service.",
+        "Learn to implement cloud-specific security controls such as encryption, identity management, and multi-factor authentication.",
+        "Understand the role of cloud access security brokers (CASBs) in protecting data and applications in the cloud.",
+        "Learn about securing cloud storage, including managing data backups and preventing unauthorized access.",
+        "Study how to implement cloud governance and ensure compliance with regulations like GDPR and HIPAA.",
+        "Understand disaster recovery and incident response strategies for cloud environments.",
+        "Explore how to use automation and security tools to improve security in cloud infrastructures."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Incident Response and Forensics",
+      "thumbnail": "https://www.antisyphontraining.com/wp-content/uploads/2024/07/Network-Forensics-and-Incident-Response-w-Troy-Wojewoda.jpg",
+      "description": "Learn how to respond to security incidents, analyze logs, and conduct forensics investigations.",
+      "star": 3.64,
+      "date": "May 2022",
+      "price": "1350000",
+      "hour": 17,
+      "author": "Daniel Wilson",
+      "contents": [
+        "Learn the step-by-step process of incident response, from detection to containment and eradication.",
+        "Understand how to collect and preserve digital evidence during an incident for forensic analysis.",
+        "Study the use of forensic tools for log analysis, memory analysis, and disk recovery.",
+        "Learn how to identify and respond to common types of cyberattacks, including malware infections and data breaches.",
+        "Explore the importance of collaboration with law enforcement and external parties during an investigation.",
+        "Understand the principles of network forensics and how to trace malicious activities through network traffic.",
+        "Learn how to create and implement incident response plans to minimize the impact of cyberattacks.",
+        "Study how to conduct post-incident analysis and generate reports for stakeholders and compliance.",
+        "Gain practical knowledge in handling security incidents related to cloud services and third-party integrations."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Introduction to Artificial Intelligence",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWm43BNBqB2EWcYorx97idS6DQLU7-q_kp3Q&s",
+      "description": "Learn the basics of AI and machine learning, including algorithms and applications.",
+      "star": 4.4,
+      "date": "January 2024",
+      "price": "1000000",
+      "hour": 12,
+      "author": "Jane Davis",
+      "contents": [
+        "Understand the principles and history of artificial intelligence (AI).",
+        "Explore the different types of machine learning: supervised, unsupervised, and reinforcement learning.",
+        "Learn how to train machine learning models using popular algorithms like linear regression and decision trees.",
+        "Understand overfitting, underfitting, and model evaluation techniques.",
+        "Introduction to neural networks and deep learning basics.",
+        "Explore real-world applications of AI in various industries.",
+        "Learn how AI and machine learning are used in natural language processing and computer vision.",
+        "Understand the ethical considerations and societal impact of AI technologies.",
+        "Get an overview of the tools and frameworks used for building AI models, such as TensorFlow and PyTorch."
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Deep Learning Specialization",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2GQXUA0ain0ELxAuTe4SMWDccCXbhEOF3RA&s",
+      "description": "Master deep learning techniques with this specialization, focusing on neural networks and frameworks.",
+      "star": 3.7,
+      "date": "February 2022",
+      "price": "0",
+      "hour": 20,
+      "author": "Alex Evans",
+      "contents": [
+        "Understand the architecture and principles of deep neural networks.",
+        "Learn the difference between shallow and deep learning, and when to use each approach.",
+        "Study convolutional neural networks (CNNs) for image recognition and processing.",
+        "Explore recurrent neural networks (RNNs) and long short-term memory (LSTM) for sequence data.",
+        "Learn about the importance of activation functions, loss functions, and optimization techniques in deep learning.",
+        "Dive into the applications of deep learning for natural language processing and speech recognition.",
+        "Get hands-on experience building deep learning models using TensorFlow and Keras.",
+        "Explore the challenges of training deep models, including vanishing gradients and overfitting.",
+        "Understand how to apply transfer learning to use pre-trained models for new tasks.",
+        "Examine real-world applications of deep learning in autonomous driving, robotics, and healthcare."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "AI for Data Science",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7OTfDEfitmz6lKgsEnuWcAZeNq4P2ANxdw&s",
+      "description": "Apply AI techniques to data science tasks such as data analysis and predictive modeling.",
+      "star": 4.4,
+      "date": "March 2023",
+      "price": "1150000",
+      "hour": 14,
+      "author": "Mark Green",
+      "contents": [
+        "Learn how to apply machine learning algorithms for real-world data analysis.",
+        "Understand data preprocessing techniques such as feature selection, normalization, and data imputation.",
+        "Explore various machine learning models including regression, classification, and clustering techniques.",
+        "Study decision trees, random forests, and gradient boosting algorithms for supervised learning.",
+        "Learn how to evaluate and optimize machine learning models using cross-validation and hyperparameter tuning.",
+        "Understand unsupervised learning techniques such as k-means clustering and hierarchical clustering.",
+        "Learn how to deal with large datasets and complex data using tools like Pandas and Scikit-Learn.",
+        "Understand the importance of data visualization and how to use tools like Matplotlib and Seaborn for analysis.",
+        "Explore time series forecasting and anomaly detection for predictive modeling.",
+        "Apply machine learning in industry contexts, including healthcare, finance, and marketing."
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Natural Language Processing with Python",
+      "thumbnail": "https://techclass.com/cdn/shop/files/Natural-Language-Processing-with-Python-Cover-TechClass-Training.png?v=1684571051",
+      "description": "Learn how to process and analyze text data using NLP techniques and Python.",
+      "star": 5,
+      "date": "April 2021",
+      "price": "1300000",
+      "hour": 15,
+      "author": "Tom Lee",
+      "contents": [
+        "Understand the basics of text processing and how to work with text data.",
+        "Learn how to use the NLTK library for tokenization, stop-word removal, and part-of-speech tagging.",
+        "Master text preprocessing techniques such as stemming, lemmatization, and text normalization.",
+        "Study sentiment analysis and learn how to build models to classify emotions in text.",
+        "Understand named entity recognition (NER) and how to extract useful information from text.",
+        "Explore topic modeling and clustering techniques to analyze large text datasets.",
+        "Work with text embeddings like word2vec and GloVe to represent words as vectors.",
+        "Learn how to use SpaCy for fast NLP tasks and text analysis pipelines.",
+        "Understand how to build and evaluate machine learning models for NLP tasks.",
+        "Apply NLP techniques in real-world applications such as chatbots, sentiment analysis, and text summarization."
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Reinforcement Learning",
+      "thumbnail": "https://deeplizard.com/assets/jpg/36d34004.jpg",
+      "description": "Dive deep into reinforcement learning and understand how machines can learn optimal behavior.",
+      "star": 5,
+      "date": "May 2024",
+      "price": "1400000",
+      "hour": 18,
+      "author": "William Kim",
+      "contents": [
+        "Understand the fundamental concepts of reinforcement learning, including agents, environments, and rewards.",
+        "Learn about different RL algorithms, including Q-learning, SARSA, and Monte Carlo methods.",
+        "Study the exploration vs. exploitation trade-off and how it impacts learning behavior.",
+        "Master policy gradient methods and understand how they differ from value-based methods.",
+        "Learn how to apply reinforcement learning to real-world problems like game playing and robotics.",
+        "Explore advanced topics such as deep reinforcement learning (DRL) and its use in training complex models.",
+        "Understand how to implement RL models using Python libraries such as OpenAI Gym.",
+        "Learn about multi-agent reinforcement learning and how agents can collaborate or compete in shared environments.",
+        "Study reward shaping and how to design effective reward systems to improve learning performance.",
+        "Apply RL techniques to optimize decision-making in applications like healthcare, finance, and autonomous vehicles."
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Blockchain Basics",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtBRfmmd9nengEWtSHK7y4pXxEVyNPCtqDw&s",
+      "description": "Learn the fundamentals of blockchain technology and its applications in finance and beyond.",
+      "star": 4.64,
+      "date": "January 2024",
+      "price": "1100000",
+      "hour": 14,
+      "author": "Hannah Lee",
+      "contents": [
+        "Understand the concept of distributed ledgers and how they work.",
+        "Explore the role of miners and consensus protocols such as Proof of Work and Proof of Stake.",
+        "Learn about the structure of a blockchain and its security features.",
+        "Get an introduction to cryptocurrencies and how blockchain supports them.",
+        "Understand the concept of decentralization and its implications.",
+        "Learn about the role of nodes and how they maintain the blockchain network.",
+        "Study common blockchain use cases beyond cryptocurrencies, including supply chain and healthcare.",
+        "Explore blockchain platforms and ecosystems like Bitcoin, Ethereum, and Hyperledger.",
+        "Get an overview of smart contracts and decentralized applications (dApps)."
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Ethereum and Smart Contracts",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1yrFlM1MBa5PllnQ6XOmOa0B26R-QGguN3A&s",
+      "description": "Deep dive into Ethereum, smart contracts, and how to develop decentralized applications.",
+      "star": 4.25,
+      "date": "July 2024",
+      "price": "0",
+      "hour": 20,
+      "author": "Jack White",
+      "contents": [
+        "Learn how Ethereum works, including its consensus mechanism and blockchain architecture.",
+        "Understand how to write and deploy smart contracts using Solidity.",
+        "Build decentralized applications (dApps) on the Ethereum platform.",
+        "Explore Ethereum-based protocols such as ERC-20 and ERC-721 for tokenization.",
+        "Learn how Ethereum Virtual Machine (EVM) executes smart contracts.",
+        "Understand gas fees, and how to manage them in a decentralized environment.",
+        "Study the concept of decentralized autonomous organizations (DAOs) on Ethereum.",
+        "Learn about Ethereum scaling solutions like Layer 2 protocols and sharding.",
+        "Explore decentralized finance (DeFi) applications and their integration with Ethereum."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Blockchain for Developers",
+      "thumbnail": "https://keystoneacademic-res.cloudinary.com/image/upload/element/81/81776_CBD.jpg",
+      "description": "Learn how to build decentralized applications using various blockchain platforms.",
+      "star": 2.47,
+      "date": "April 2024",
+      "price": "1200000",
+      "hour": 18,
+      "author": "Zara Johnson",
+      "contents": [
+        "Learn to build decentralized applications (dApps) using Ethereum and Hyperledger.",
+        "Integrate blockchain with real-world APIs and services like Oracle and Chainlink.",
+        "Understand the process of creating and managing digital wallets and blockchain transactions.",
+        "Study how blockchain handles data privacy and security with public and private keys.",
+        "Learn the importance of consensus mechanisms like Proof of Work (PoW) and Proof of Stake (PoS).",
+        "Understand the challenges of blockchain scalability and explore solutions like sidechains.",
+        "Learn about smart contract development, testing, and deployment on different blockchain platforms.",
+        "Understand the role of blockchain in supply chain management and finance.",
+        "Explore advanced topics in blockchain interoperability and cross-chain communication."
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Decentralized Finance (DeFi) Essentials",
+      "thumbnail": "https://101blockchains.com/wp-content/uploads/2022/03/introduction-to-defi-course.png",
+      "description": "Master the principles of decentralized finance and its impact on the global economy.",
+      "star": 3.5,
+      "date": "September 2024",
+      "price": "1400000",
+      "hour": 15,
+      "author": "Noah Clark",
+      "contents": [
+        "Learn the core principles behind decentralized financial systems and their differences from traditional finance.",
+        "Explore key DeFi protocols such as lending platforms, decentralized exchanges (DEXs), and yield farming.",
+        "Build decentralized exchanges (DEXs) and other DeFi applications using blockchain technology.",
+        "Understand the risks and challenges associated with DeFi including impermanent loss and smart contract vulnerabilities.",
+        "Study the role of stablecoins and their use in DeFi applications.",
+        "Understand the concept of liquidity pools and automated market makers (AMMs).",
+        "Learn how governance tokens work and their role in DeFi decision-making processes.",
+        "Study decentralized lending and borrowing protocols like Compound and Aave.",
+        "Explore cross-chain interoperability in the DeFi ecosystem.",
+        "Learn about the regulatory landscape of DeFi and its potential for financial inclusion."
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Blockchain Security",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmBI48EyyF0Rp2bsTNNrWgQcXK4wjjkUScJg&s",
+      "description": "Learn about blockchain security challenges and how to implement secure decentralized applications.",
+      "star": 4,
+      "date": "May 2024",
+      "price": "1300000",
+      "hour": 17,
+      "author": "Lucas Thompson",
+      "contents": [
+        "Identify common vulnerabilities in blockchain systems such as 51% attacks and Sybil attacks.",
+        "Understand how to secure smart contracts from exploits and hacks.",
+        "Learn how to implement cryptographic techniques to enhance blockchain security.",
+        "Apply best practices for auditing blockchain code and performing security tests.",
+        "Study consensus algorithms and their role in securing the blockchain network.",
+        "Understand the importance of decentralized governance and its security implications.",
+        "Learn how to protect against front-running, flash loan attacks, and other blockchain-based exploits.",
+        "Explore secure blockchain protocols such as Hyperledger and permissioned blockchains.",
+        "Study how to secure decentralized applications (dApps) and user wallets.",
+        "Understand the future of blockchain security, including quantum computing's potential impact."
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Introduction to Game Development",
+      "thumbnail": "https://static-assets.codecademy.com/assets/course-landing-page/meta/4x3/introduction-to-game-development.jpg",
+      "description": "Learn the basics of game development, including game engines, physics, and design.",
+      "star": 4,
+      "date": "October 2024",
+      "price": "0",
+      "hour": 14,
+      "author": "Elena Stevens",
+      "contents": [
+        "Introduction to game engines like Unity and Unreal Engine, including their core components and workflows.",
+        "Understand the differences between 2D and 3D game development and how each engine handles these types of projects.",
+        "Learn about game design principles and mechanics, including player movement, level design, and challenge creation.",
+        "Explore the importance of game physics and how to implement realistic movements and object interactions in your game.",
+        "Introduction to 3D rendering techniques and how to optimize assets for smoother game performance.",
+        "Learn how to build your first 2D game from scratch, from the basic mechanics to a playable prototype.",
+        "Integrate sound, visual effects, and music to enhance the player's experience and create immersive environments.",
+        "Study how to test your game for bugs and improve performance, including tips for debugging and profiling.",
+        "Create user interfaces (UI) for your game, such as menus, scoreboards, and interactive buttons.",
+        "Plan and organize your game development process with timelines, milestones, and effective project management."
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Unity Game Development",
+      "thumbnail": "https://www.cdmi.in/courses@2x/unity.webp",
+      "description": "Master Unity to develop 2D and 3D games with interactive features.",
+      "star": 5,
+      "date": "March 2024",
+      "price": "1200000",
+      "hour": 20,
+      "author": "Marcus Collins",
+      "contents": [
+        "Learn the fundamentals of Unity game development, including how to set up a new project, manage scenes, and create game objects.",
+        "Build interactive 2D and 3D game environments, understanding the differences in development between these two types of games.",
+        "Explore advanced features like physics, animation, and artificial intelligence (AI), and how they can enhance gameplay.",
+        "Learn how to create a complete game project from start to finish, including game mechanics, asset management, and debugging.",
+        "Master Unity’s asset store, and learn how to integrate third-party plugins and assets to speed up development and improve your game.",
+        "Understand how to work with Unity’s built-in physics engine to create realistic object behavior, such as gravity, collision detection, and friction.",
+        "Dive into Unity’s animation system, creating smooth character movements and interactive animations.",
+        "Learn how to work with sound effects, background music, and voiceovers to add depth and atmosphere to your games.",
+        "Develop camera systems for both 2D and 3D environments, allowing you to create dynamic, cinematic, and player-centric camera views.",
+        "Optimize your game for different platforms, including mobile and PC, ensuring smooth performance across devices."
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Game Design Mastery",
+      "thumbnail": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4664f305-e96f-4ff6-833f-fdcf4f616d8c_1456x1048.png",
+      "description": "Learn advanced game design techniques and best practices for creating engaging player experiences.",
+      "star": 4,
+      "date": "July 2024",
+      "price": "0",
+      "hour": 18,
+      "author": "Sophia Miller",
+      "contents": [
+        "Study advanced game design patterns and mechanics, including procedural generation, emergent gameplay, and player choice.",
+        "Learn how to balance difficulty and reward systems to create challenging yet fair gameplay experiences for players.",
+        "Explore the role of storytelling in games, and how narrative elements can be woven into gameplay to enhance immersion.",
+        "Create a prototype for a complex game project, from concept to gameplay mechanics and level design.",
+        "Design and implement unique game mechanics that challenge players and offer new ways to interact with the game world.",
+        "Learn how to design levels that are not only fun but also provide a learning curve, leading players through increasing complexity.",
+        "Develop engaging gameplay that offers meaningful player choices, both in the narrative and in mechanics.",
+        "Incorporate visual storytelling techniques to express the game’s world, characters, and themes without relying on traditional dialogue.",
+        "Learn how to gather and implement player feedback during playtesting to continuously refine and improve your game design.",
+        "Explore how player psychology impacts design choices, and how to create games that resonate with players on an emotional level."
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Advanced Game Development with Unreal Engine",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ299Q2jOTOQw1R_XKVyIkU1Vg5mUs8kAQGRw&s",
+      "description": "Take your game development skills to the next level by mastering Unreal Engine's powerful tools and features.",
+      "star": 5,
+      "date": "June 2024",
+      "price": "1400000",
+      "hour": 20,
+      "author": "David Johnson",
+      "contents": [
+        "Master Unreal Engine's core features, including the Blueprint visual scripting system, and learn how to implement gameplay mechanics without writing code.",
+        "Learn how to create advanced game physics, including destructible environments, complex interactions, and realistic material properties.",
+        "Develop high-quality 3D environments using Unreal Engine’s powerful rendering tools, including lighting, textures, and shaders.",
+        "Learn how to build complex character models and animate them for both first-person and third-person gameplay.",
+        "Work with Unreal’s AI systems to create intelligent, dynamic NPCs that interact with the player and environment in realistic ways.",
+        "Create advanced multiplayer functionality, including server management, player synchronization, and real-time data sharing.",
+        "Dive into Unreal’s particle system to create complex visual effects such as explosions, smoke, and magical spells.",
+        "Develop and integrate sound effects, voice acting, and immersive environmental audio to enhance the player’s experience.",
+        "Optimize Unreal Engine games for better performance on a variety of platforms, from PC to consoles and VR.",
+        "Learn how to work with Unreal Engine’s animation tools to create smooth, realistic movements for characters and objects."
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Multiplayer Game Development",
+      "thumbnail": "https://maticz.com/admin/images/ogImage/multiplayer-game-development.webp",
+      "description": "Learn how to create multiplayer games with a focus on networking and server-side logic.",
+      "star": 4,
+      "date": "January 2024",
+      "price": "1300000",
+      "hour": 19,
+      "author": "Michael Taylor",
+      "contents": [
+        "Learn about multiplayer game architecture and the key concepts behind the server-client model used in networked games.",
+        "Explore different networking protocols such as TCP, UDP, and WebSockets, and understand their uses in game development.",
+        "Implement server-side logic and synchronization techniques to keep players in sync across various devices.",
+        "Develop multiplayer game features such as matchmaking systems, lobbies, and real-time player interaction.",
+        "Understand how to manage player data, including inventory, progression, and statistics, in a networked environment.",
+        "Learn how to prevent cheating and handle security concerns in online multiplayer games.",
+        "Explore the use of cloud services for multiplayer games, including using cloud-based servers and data storage.",
+        "Work with game engines like Unity and Unreal Engine to implement networked multiplayer features.",
+        "Test and debug multiplayer games, identifying and resolving issues related to lag, connectivity, and server performance.",
+        "Implement scalable multiplayer game systems, allowing your game to handle large numbers of players simultaneously."
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Front-end",
+      "description": "Front-end development focuses on creating the user interface and experience of a website or application. It involves using technologies like HTML, CSS, and JavaScript to design responsive and interactive layouts. The goal is to ensure an intuitive, seamless user experience across devices."
+    },
+    {
+      "id": 2,
+      "name": "Back-end",
+      "description": "Back-end development involves building and managing the server, database, and application logic that power a website or application. It ensures data processing, storage, and integration with front-end services, often using technologies like Node.js, Python, or Ruby. The focus is on performance, security, and scalability."
+    },
+    {
+      "id": 3,
+      "name": "DevOps",
+      "description": "DevOps is a practice that combines software development (Dev) and IT operations (Ops) to streamline and automate the software delivery process. It focuses on improving collaboration between teams, continuous integration, and continuous delivery (CI/CD), ensuring faster releases and more reliable systems. Tools like Docker, Kubernetes, and Jenkins are commonly used in DevOps."
+    },
+    {
+      "id": 4,
+      "name": "Data Science",
+      "description": "Data science involves analyzing and interpreting complex data to extract valuable insights and inform decision-making. It combines techniques from statistics, machine learning, and programming to process and visualize data. Data scientists use tools like Python, R, and SQL to uncover patterns, trends, and predictions that drive business strategies."
+    },
+    {
+      "id": 5,
+      "name": "Mobile App",
+      "description": "Mobile app development focuses on creating software applications for mobile devices like smartphones and tablets. It involves designing, coding, and testing apps for platforms such as Android and iOS using languages like Swift, Kotlin, or frameworks like React Native. The goal is to deliver seamless, user-friendly experiences optimized for touch interfaces."
+    },
+    {
+      "id": 6,
+      "name": "Cloud Computing",
+      "description": "Cloud computing delivers computing services like storage, servers, databases, and software over the internet- the cloud. It allows businesses to access scalable resources on-demand, without needing to manage physical hardware. Popular cloud platforms include AWS, Microsoft Azure, and Google Cloud, enabling flexibility, cost-efficiency, and enhanced security for various applications."
+    },
+    {
+      "id": 7,
+      "name": "Cybersecurity",
+      "description": "Cybersecurity involves protecting systems, networks, and data from digital attacks, unauthorized access, and damage. It includes practices like encryption, firewalls, and multi-factor authentication to secure sensitive information. The goal is to ensure confidentiality, integrity, and availability of data, with common threats including malware, phishing, and ransomware."
+    },
+    {
+      "id": 8,
+      "name": "AI & Machine Learning",
+      "description": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines, enabling them to perform tasks like reasoning, learning, and decision-making. Machine Learning (ML), a subset of AI, allows systems to automatically learn from data and improve over time without explicit programming. ML uses algorithms and statistical models to identify patterns and make predictions, driving applications like recommendation systems, image recognition, and natural language processing."
+    },
+    {
+      "id": 9,
+      "name": "Blockchain",
+      "description": "Blockchain is a decentralized, distributed ledger technology that securely records transactions across multiple computers. It ensures transparency, security, and immutability, making it ideal for use in cryptocurrencies like Bitcoin, as well as applications like smart contracts and supply chain management. Each block in the chain contains data, a timestamp, and a link to the previous block, ensuring data integrity."
+    },
+    {
+      "id": 10,
+      "name": "Game Development",
+      "description": "Game development involves the creation of video games, encompassing the design, coding, art, and sound production. It includes game mechanics, storytelling, and user interaction, using tools like Unity, Unreal Engine, or custom-built engines. Game developers work on various platforms such as consoles, PCs, and mobile devices to deliver immersive, interactive experiences."
+    }
+  ],
+  "courseCategories": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "courseId": 3,
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "courseId": 4,
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "courseId": 5,
+      "categoryId": 1
+    },
+    {
+      "id": 6,
+      "courseId": 6,
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "courseId": 7,
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "courseId": 8,
+      "categoryId": 2
+    },
+    {
+      "id": 9,
+      "courseId": 9,
+      "categoryId": 2
+    },
+    {
+      "id": 10,
+      "courseId": 10,
+      "categoryId": 2
+    },
+    {
+      "id": 11,
+      "courseId": 11,
+      "categoryId": 3
+    },
+    {
+      "id": 12,
+      "courseId": 12,
+      "categoryId": 3
+    },
+    {
+      "id": 13,
+      "courseId": 13,
+      "categoryId": 3
+    },
+    {
+      "id": 14,
+      "courseId": 14,
+      "categoryId": 3
+    },
+    {
+      "id": 15,
+      "courseId": 15,
+      "categoryId": 3
+    },
+    {
+      "id": 16,
+      "courseId": 16,
+      "categoryId": 4
+    },
+    {
+      "id": 17,
+      "courseId": 17,
+      "categoryId": 4
+    },
+    {
+      "id": 18,
+      "courseId": 18,
+      "categoryId": 4
+    },
+    {
+      "id": 19,
+      "courseId": 19,
+      "categoryId": 4
+    },
+    {
+      "id": 20,
+      "courseId": 20,
+      "categoryId": 4
+    },
+    {
+      "id": 21,
+      "courseId": 21,
+      "categoryId": 5
+    },
+    {
+      "id": 22,
+      "courseId": 22,
+      "categoryId": 5
+    },
+    {
+      "id": 23,
+      "courseId": 23,
+      "categoryId": 5
+    },
+    {
+      "id": 24,
+      "courseId": 24,
+      "categoryId": 5
+    },
+    {
+      "id": 25,
+      "courseId": 25,
+      "categoryId": 5
+    },
+    {
+      "id": 26,
+      "courseId": 26,
+      "categoryId": 6
+    },
+    {
+      "id": 27,
+      "courseId": 27,
+      "categoryId": 6
+    },
+    {
+      "id": 28,
+      "courseId": 28,
+      "categoryId": 6
+    },
+    {
+      "id": 29,
+      "courseId": 29,
+      "categoryId": 6
+    },
+    {
+      "id": 30,
+      "courseId": 30,
+      "categoryId": 6
+    },
+    {
+      "id": 31,
+      "courseId": 31,
+      "categoryId": 7
+    },
+    {
+      "id": 32,
+      "courseId": 32,
+      "categoryId": 7
+    },
+    {
+      "id": 33,
+      "courseId": 33,
+      "categoryId": 7
+    },
+    {
+      "id": 34,
+      "courseId": 34,
+      "categoryId": 7
+    },
+    {
+      "id": 35,
+      "courseId": 35,
+      "categoryId": 7
+    },
+    {
+      "id": 36,
+      "courseId": 36,
+      "categoryId": 8
+    },
+    {
+      "id": 37,
+      "courseId": 37,
+      "categoryId": 8
+    },
+    {
+      "id": 38,
+      "courseId": 38,
+      "categoryId": 8
+    },
+    {
+      "id": 39,
+      "courseId": 39,
+      "categoryId": 8
+    },
+    {
+      "id": 40,
+      "courseId": 40,
+      "categoryId": 8
+    },
+    {
+      "id": 41,
+      "courseId": 41,
+      "categoryId": 9
+    },
+    {
+      "id": 42,
+      "courseId": 42,
+      "categoryId": 9
+    },
+    {
+      "id": 43,
+      "courseId": 43,
+      "categoryId": 9
+    },
+    {
+      "id": 44,
+      "courseId": 44,
+      "categoryId": 9
+    },
+    {
+      "id": 45,
+      "courseId": 45,
+      "categoryId": 9
+    },
+    {
+      "id": 46,
+      "courseId": 46,
+      "categoryId": 10
+    },
+    {
+      "id": 47,
+      "courseId": 47,
+      "categoryId": 10
+    },
+    {
+      "id": 48,
+      "courseId": 48,
+      "categoryId": 10
+    },
+    {
+      "id": 49,
+      "courseId": 49,
+      "categoryId": 10
+    },
+    {
+      "id": 50,
+      "courseId": 50,
+      "categoryId": 10
+    }
+  ]
+}

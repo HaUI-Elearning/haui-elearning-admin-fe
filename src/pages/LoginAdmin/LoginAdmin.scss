@@ -1,0 +1,159 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/images/b2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  .login-box {
+    background: #fff;
+    padding: 50px 40px;
+    border-radius: 15px;
+    box-shadow: 0 14px 36px rgba(106, 63, 181, 0.3); // tím nhẹ bóng
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+
+    .back-button {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #6a3fb5; // tím đậm
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 20px;
+      transition: color 0.3s ease;
+
+      svg {
+        margin-right: 8px;
+        font-size: 1.5rem;
+      }
+
+      &:hover {
+        color: #4a2d85; // tím đậm hơn
+      }
+    }
+
+    .logo {
+      margin-bottom: 30px;
+
+      img {
+        width: 130px;
+        user-select: none;
+      }
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+
+      .input-group {
+        position: relative;
+        margin-bottom: 30px;
+
+        .input-field {
+          width: 100%;
+          padding: 18px 50px 18px 20px;
+          border: 2px solid #c7b8f5; // tím nhạt
+          border-radius: 12px;
+          font-size: 1.15rem;
+          transition: border-color 0.3s ease, background-color 0.3s ease;
+          background: #f7f4fb;
+
+          &:focus {
+            border-color: #6a3fb5; // tím đậm khi focus
+            outline: none;
+            background: #fff;
+          }
+        }
+
+        .icon {
+          position: absolute;
+          right: 18px;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #6a3fb5;
+          font-size: 1.5rem;
+          cursor: pointer;
+          user-select: none;
+        }
+
+        &.password-icon {
+          cursor: pointer;
+        }
+      }
+
+      .errorMsg {
+        color: #d32f2f;
+        font-size: 0.9rem;
+        margin-top: -20px;
+        margin-bottom: 12px;
+        text-align: left;
+        font-weight: 600;
+      }
+
+      .button {
+        background-color: #6a3fb5; // tím đậm chủ đạo
+        color: white;
+        font-weight: 700;
+        padding: 18px 0;
+        border: none;
+        border-radius: 14px;
+        font-size: 1.25rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        user-select: none;
+        box-shadow: 0 8px 20px rgba(106, 63, 181, 0.4);
+
+        &:hover {
+          background-color: #4a2d85;
+        }
+        &:active {
+          background-color: #3a2370;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 15px;
+
+    .login-box {
+      padding: 40px 25px;
+
+      .logo img {
+        width: 110px;
+      }
+
+      .form {
+        .input-group {
+          margin-bottom: 20px;
+
+          .input-field {
+            font-size: 1rem;
+            padding: 14px 45px 14px 15px;
+          }
+
+          .icon {
+            font-size: 1.3rem;
+            right: 15px;
+          }
+        }
+
+        .button {
+          font-size: 1.1rem;
+          padding: 16px 0;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

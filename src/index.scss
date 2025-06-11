@@ -1,0 +1,71 @@
+@import './styles//mixins';
+.main-layout {
+  display: flex;
+  justify-content: center;
+  .layout-sidebar {
+    width: 120px !important;
+    padding: 0 60px;
+    @include small-tablet {
+      padding: 0;
+      width: 0px !important;
+    }
+    @include mobile {
+      padding: 0;
+      width: 0px !important;
+    }
+    
+  }
+  .layout-content {
+    flex-grow: 1 !important;
+    @include mobile{
+      width: 100% !important;
+    }
+    width: calc(100vw - 120px  - 120px) ;
+    .outlet {
+      
+      @include mobile{
+        padding: 0 24px 32px;
+      }
+      @include tablet{
+        padding: 0 28px 32px;
+      }
+      & > div {
+        width: 100% ;
+        min-height: calc(100vh - 88px);
+      }
+    }
+  }
+}
+.admin-layout-content {
+  flex-grow: 1 !important;
+
+  .admin-outlet {
+    padding: 40px;
+
+    .admin-box {
+      padding-left: 273px;
+    }
+  }
+}
+.mt-72px {
+  padding: 24px 24px 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

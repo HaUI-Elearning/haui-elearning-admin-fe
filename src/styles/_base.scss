@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  color: #3f4254;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
