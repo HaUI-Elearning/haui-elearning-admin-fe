@@ -1,5 +1,3 @@
-// File: src/pages/Admin/TopSellingCoursesAdmin.jsx
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import {
@@ -13,29 +11,31 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  TablePagination,
   Tooltip,
+  Pagination,
 } from "@mui/material";
-import EmojiEventsIcon from "@mui/icons-material/EmojiEvents"; // icon cho huy chương
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 
 const TopSellingCoursesAdmin = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(1); // Bắt đầu từ 1 vì Pagination component là 1-based
   const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [totalPages, setTotalPages] = useState(0);
   const [totalItems, setTotalItems] = useState(0);
 
   const fetchTopSellingCourses = async (pageNumber, pageSize) => {
     setLoading(true);
     setError(null);
+
     try {
       const token = localStorage.getItem("accessToken");
       const response = await axios.get(
         "http://localhost:8080/api/v1/reports/sales/top-selling-courses",
         {
           params: {
-            page: pageNumber + 1,
+            page: pageNumber - 1, // backend bắt đầu từ 0
             size: pageSize,
           },
           headers: {
@@ -43,8 +43,10 @@ const TopSellingCoursesAdmin = () => {
           },
         }
       );
+
       const data = response.data.data;
       setCourses(data.content || []);
+      setTotalPages(data.totalPages || 0);
       setTotalItems(data.totalElements || 0);
     } catch (err) {
       console.error("Error fetching top-selling courses:", err.response || err);
@@ -58,13 +60,10 @@ const TopSellingCoursesAdmin = () => {
     fetchTopSellingCourses(page, rowsPerPage);
   }, [page, rowsPerPage]);
 
-  const handleChangePage = (event, newPage) => setPage(newPage);
-  const handleChangeRowsPerPage = (event) => {
-    setRowsPerPage(parseInt(event.target.value, 10));
-    setPage(0);
+  const handlePageChange = (event, value) => {
+    setPage(value);
   };
 
-  // Hàm trả về icon tương ứng top 1, 2, 3
   const getMedalIcon = (index) => {
     const colors = ["gold", "silver", "#cd7f32"];
     if (index < 3) {
@@ -119,7 +118,7 @@ const TopSellingCoursesAdmin = () => {
                           "&:hover": { backgroundColor: "grey.100" },
                         }}
                       >
-                        <TableCell>{page * rowsPerPage + index + 1}</TableCell>
+                        <TableCell>{(page - 1) * rowsPerPage + index + 1}</TableCell>
                         <TableCell>
                           <Box display="flex" alignItems="center">
                             {getMedalIcon(index)}
@@ -147,23 +146,18 @@ const TopSellingCoursesAdmin = () => {
                 </Table>
               </TableContainer>
 
-              <TablePagination
-                component="div"
-                count={totalItems}
-                page={page}
-                onPageChange={handleChangePage}
-                rowsPerPage={rowsPerPage}
-                onRowsPerPageChange={handleChangeRowsPerPage}
-                labelRowsPerPage="Rows per page"
-                labelDisplayedRows={({ from, to, count }) =>
-                  `${from}-${to} of ${count}`
-                }
-                sx={{
-                  ".MuiTablePagination-toolbar": {
-                    backgroundColor: "grey.100",
-                  },
-                }}
-              />
+              {/* Phân trang dạng nút bên ngoài */}
+              <Box display="flex" justifyContent="center" mt={2} pb={2}>
+                <Pagination
+                  count={totalPages}
+                  page={page}
+                  onChange={handlePageChange}
+                  color="primary"
+                  shape="rounded"
+                  showFirstButton
+                  showLastButton
+                />
+              </Box>
             </Paper>
           )}
         </>

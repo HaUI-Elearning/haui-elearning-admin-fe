@@ -1,5 +1,3 @@
-// File: src/pages/Admin/PendingCoursesAdmin.jsx
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import {
@@ -13,20 +11,22 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  TablePagination,
+  Pagination, // thêm Pagination từ MUI
+  MenuItem,
+  Select,
+  FormControl,
+  InputLabel,
 } from "@mui/material";
 import "./CourseAdmin.scss";
 
 const CoursesAdmin = () => {
-  // State quản lý dữ liệu khóa học, loading/error, phân trang
-  const [courses, setCourses] = useState([]); // mảng khóa học pending
-  const [loading, setLoading] = useState(false); // hiển thị spinner khi fetch
-  const [error, setError] = useState(null); // lưu lỗi (nếu có)
-  const [page, setPage] = useState(0); // trang hiện tại (0-based)
-  const [rowsPerPage, setRowsPerPage] = useState(10); // số dòng mỗi trang
-  const [totalItems, setTotalItems] = useState(0); // tổng số khóa học (từ meta.total)
+  const [courses, setCourses] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [page, setPage] = useState(1); // 1-based để đồng bộ với Pagination
+  const [rowsPerPage, setRowsPerPage] = useState(10);
+  const [totalItems, setTotalItems] = useState(0);
 
-  // Hàm gọi API để lấy danh sách khóa học “pending”
   const fetchPendingCourses = async (pageNumber, pageSize) => {
     setLoading(true);
     setError(null);
@@ -37,7 +37,7 @@ const CoursesAdmin = () => {
         "http://localhost:8080/api/v1/Admin/courses",
         {
           params: {
-            current: pageNumber + 1, // backend dùng 1-based indexing
+            current: pageNumber,
             pageSize: pageSize,
           },
           headers: {
@@ -46,11 +46,7 @@ const CoursesAdmin = () => {
         }
       );
 
-      // Dữ liệu backend trả về có dạng: { meta: {...}, result: [ ... ] }
       const data = response.data.data;
-      console.log("Raw API data:", data);
-
-      // courses hiện tại có trong data.result, tổng phần tử trong data.meta.total
       setCourses(data.result || []);
       setTotalItems(data.meta?.total || 0);
     } catch (err) {
@@ -61,21 +57,11 @@ const CoursesAdmin = () => {
     }
   };
 
-  // Khi component mount, hoặc page/rowsPerPage thay đổi → gọi lại API
   useEffect(() => {
     fetchPendingCourses(page, rowsPerPage);
   }, [page, rowsPerPage]);
 
-  // Xử lý chuyển trang
-  const handleChangePage = (event, newPage) => {
-    setPage(newPage);
-  };
-
-  // Xử lý thay đổi số dòng mỗi trang
-  const handleChangeRowsPerPage = (event) => {
-    setRowsPerPage(parseInt(event.target.value, 10));
-    setPage(0);
-  };
+  const totalPages = Math.ceil(totalItems / rowsPerPage);
 
   return (
     <Box p={3}>
@@ -98,30 +84,16 @@ const CoursesAdmin = () => {
           ) : (
             <Paper>
               <TableContainer>
-                <Table aria-label="pending courses table">
+                <Table>
                   <TableHead>
                     <TableRow>
-                      <TableCell>
-                        <strong>ID</strong>
-                      </TableCell>
-                      <TableCell>
-                        <strong>Name</strong>
-                      </TableCell>
-                      <TableCell>
-                        <strong>Thumbnail</strong>
-                      </TableCell>
-                      <TableCell>
-                        <strong>Author</strong>
-                      </TableCell>
-                      <TableCell>
-                        <strong>Created At</strong>
-                      </TableCell>
-                      <TableCell>
-                        <strong>Price (VND)</strong>
-                      </TableCell>
-                      <TableCell>
-                        <strong>Status</strong>
-                      </TableCell>
+                      <TableCell><strong>ID</strong></TableCell>
+                      <TableCell><strong>Name</strong></TableCell>
+                      <TableCell><strong>Thumbnail</strong></TableCell>
+                      <TableCell><strong>Author</strong></TableCell>
+                      <TableCell><strong>Created At</strong></TableCell>
+                      <TableCell><strong>Price (VND)</strong></TableCell>
+                      <TableCell><strong>Status</strong></TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
@@ -156,25 +128,15 @@ const CoursesAdmin = () => {
                         <TableCell>
                           {course.approvalStatus === "pending" ? (
                             <>
-                              <button className="approve-btn">Duyệt</button>
+                              <button className="approve-btn">Approve</button>
                               <button className="reject-btn">Rejected</button>
                             </>
                           ) : course.approvalStatus === "approved" ? (
-                            <Box
-                              display="flex"
-                              alignItems="center"
-                              gap={1}
-                              color="green"
-                            >
+                            <Box display="flex" alignItems="center" gap={1} color="green">
                               ✅ Approved
                             </Box>
                           ) : (
-                            <Box
-                              display="flex"
-                              alignItems="center"
-                              gap={1}
-                              color="red"
-                            >
+                            <Box display="flex" alignItems="center" gap={1} color="red">
                               ❌ Rejected
                             </Box>
                           )}
@@ -185,18 +147,38 @@ const CoursesAdmin = () => {
                 </Table>
               </TableContainer>
 
-              <TablePagination
-                component="div"
-                count={totalItems}
-                page={page}
-                onPageChange={handleChangePage}
-                rowsPerPage={rowsPerPage}
-                onRowsPerPageChange={handleChangeRowsPerPage}
-                labelRowsPerPage="Rows per page"
-                labelDisplayedRows={({ from, to, count }) =>
-                  `${from}-${to} of ${count}`
-                }
-              />
+              {/* Pagination */}
+              <Box
+                display="flex"
+                justifyContent="space-between"
+                alignItems="center"
+                p={2}
+              >
+                <FormControl size="small">
+                  <InputLabel>Rows</InputLabel>
+                  <Select
+                    value={rowsPerPage}
+                    label="Rows"
+                    onChange={(e) => {
+                      setRowsPerPage(parseInt(e.target.value, 10));
+                      setPage(1);
+                    }}
+                  >
+                    {[5, 10, 20, 50].map((size) => (
+                      <MenuItem key={size} value={size}>
+                        {size}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+
+                <Pagination
+                  count={totalPages}
+                  page={page}
+                  onChange={(e, value) => setPage(value)}
+                  color="primary"
+                />
+              </Box>
             </Paper>
           )}
         </>
