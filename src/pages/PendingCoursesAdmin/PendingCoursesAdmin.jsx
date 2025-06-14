@@ -104,15 +104,17 @@ const CoursesAdmin = () => {
       const token = localStorage.getItem("accessToken");
       await axios.post(
         `http://localhost:8080/api/v1/Admin/courses/${selectedCourseId}/Confirm`,
-        { reason: rejectReason },
+        null, // body là null
         {
+          params: {
+            reason: rejectReason, // ✅ đưa lý do vào query string
+          },
           headers: {
             Authorization: `Bearer ${token}`,
-            "Content-Type": "application/json",
           },
         }
       );
-      toast.success("Đã từ chối khóa học.");
+      toast.success("Course declined!!");
       fetchPendingCourses(page, rowsPerPage);
     } catch (err) {
       console.error("Reject error:", err);
@@ -165,13 +167,27 @@ const CoursesAdmin = () => {
             <Table aria-label="pending courses table">
               <TableHead>
                 <TableRow>
-                  <TableCell><strong>ID</strong></TableCell>
-                  <TableCell><strong>Name</strong></TableCell>
-                  <TableCell><strong>Thumbnail</strong></TableCell>
-                  <TableCell><strong>Author</strong></TableCell>
-                  <TableCell><strong>Created At</strong></TableCell>
-                  <TableCell><strong>Price (VND)</strong></TableCell>
-                  <TableCell><strong>Status</strong></TableCell>
+                  <TableCell>
+                    <strong>ID</strong>
+                  </TableCell>
+                  <TableCell>
+                    <strong>Name</strong>
+                  </TableCell>
+                  <TableCell>
+                    <strong>Thumbnail</strong>
+                  </TableCell>
+                  <TableCell>
+                    <strong>Author</strong>
+                  </TableCell>
+                  <TableCell>
+                    <strong>Created At</strong>
+                  </TableCell>
+                  <TableCell>
+                    <strong>Price (VND)</strong>
+                  </TableCell>
+                  <TableCell>
+                    <strong>Status</strong>
+                  </TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -227,11 +243,21 @@ const CoursesAdmin = () => {
                           </Button>
                         </>
                       ) : course.approvalStatus === "approved" ? (
-                        <Box display="flex" alignItems="center" gap={1} color="green">
+                        <Box
+                          display="flex"
+                          alignItems="center"
+                          gap={1}
+                          color="green"
+                        >
                           ✅ Approved
                         </Box>
                       ) : (
-                        <Box display="flex" alignItems="center" gap={1} color="red">
+                        <Box
+                          display="flex"
+                          alignItems="center"
+                          gap={1}
+                          color="red"
+                        >
                           ❌ Rejected
                         </Box>
                       )}
@@ -242,7 +268,12 @@ const CoursesAdmin = () => {
             </Table>
           </TableContainer>
 
-          <Box display="flex" justifyContent="space-between" alignItems="center" p={2}>
+          <Box
+            display="flex"
+            justifyContent="space-between"
+            alignItems="center"
+            p={2}
+          >
             <FormControl size="small">
               <InputLabel>Rows</InputLabel>
               <Select
@@ -271,7 +302,10 @@ const CoursesAdmin = () => {
         </Paper>
       )}
 
-      <Dialog open={rejectDialogOpen} onClose={() => setRejectDialogOpen(false)}>
+      <Dialog
+        open={rejectDialogOpen}
+        onClose={() => setRejectDialogOpen(false)}
+      >
         <DialogTitle>Rejected Course</DialogTitle>
         <DialogContent>
           <TextField
