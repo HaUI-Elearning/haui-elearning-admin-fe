@@ -12,7 +12,7 @@ import { FaUser } from "react-icons/fa";
 import { Visibility, VisibilityOff } from "@mui/icons-material";
 
 import { Alert, Snackbar, IconButton, InputAdornment } from "@mui/material";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/Logo3.png";
 import "./LoginAdmin.scss";
 
 const LoginAdmin = () => {

@@ -146,7 +146,7 @@ const CoursesAdmin = () => {
       </Button>
 
       <Typography variant="h5" gutterBottom>
-        Pending Courses
+        Approved Courses
       </Typography>
 
       {loading ? (

@@ -28,11 +28,16 @@ import PeopleIcon from "@mui/icons-material/People"; // User
 import PersonIcon from "@mui/icons-material/Person"; // Teacher
 import ReceiptLongIcon from "@mui/icons-material/ReceiptLong"; // Order
 import LogoutIcon from "@mui/icons-material/Logout"; // Logout
+import LoginIcon from "@mui/icons-material/Login";
+
 
 const drawerWidth = 240;
 
 export default function MainLayoutAdmin() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(
+    !!localStorage.getItem("accessToken")
+  );
   const [openLogoutDialog, setOpenLogoutDialog] = useState(false);
   const navigate = useNavigate();
 
@@ -42,6 +47,7 @@ export default function MainLayoutAdmin() {
 
   const confirmLogout = () => {
     localStorage.removeItem("accessToken");
+    setIsLoggedIn(false); // cập nhật trạng thái đăng nhập
     navigate("/login");
   };
 
@@ -55,7 +61,9 @@ export default function MainLayoutAdmin() {
     { text: "User", icon: <PeopleIcon />, path: "/admin-user-home" },
     { text: "Teacher", icon: <PersonIcon />, path: "/admin-teacher-home" },
     { text: "Order", icon: <ReceiptLongIcon />, path: "/admin-oder-home" },
-    { text: "Logout", icon: <LogoutIcon />, path: "/login", isLogout: true },
+    isLoggedIn
+    ? { text: "Logout", icon: <LogoutIcon />, isLogout: true }
+    : { text: "Login", icon: <LoginIcon />, path: "/login" },
   ];
 
   const drawer = (
@@ -133,7 +141,10 @@ export default function MainLayoutAdmin() {
           ModalProps={{ keepMounted: true }}
           sx={{
             display: { xs: "block", sm: "none" },
-            "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth },
+            "& .MuiDrawer-paper": {
+              boxSizing: "border-box",
+              width: drawerWidth,
+            },
           }}
         >
           {drawer}
@@ -144,7 +155,10 @@ export default function MainLayoutAdmin() {
           variant="permanent"
           sx={{
             display: { xs: "none", sm: "block" },
-            "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth },
+            "& .MuiDrawer-paper": {
+              boxSizing: "border-box",
+              width: drawerWidth,
+            },
           }}
           open
         >

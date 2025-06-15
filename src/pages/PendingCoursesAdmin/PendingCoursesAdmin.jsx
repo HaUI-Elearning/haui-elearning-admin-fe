@@ -91,7 +91,7 @@ const CoursesAdmin = () => {
           },
         }
       );
-      toast.success("Đã duyệt khóa học thành công");
+      toast.success("Course approved successfully");
       fetchPendingCourses(page, rowsPerPage);
     } catch (err) {
       console.error("Approve error:", err);
@@ -118,7 +118,7 @@ const CoursesAdmin = () => {
       fetchPendingCourses(page, rowsPerPage);
     } catch (err) {
       console.error("Reject error:", err);
-      toast.error("Từ chối khóa học thất bại.");
+      toast.error("Refuse to fail the course.");
     } finally {
       setRejectDialogOpen(false);
       setSelectedCourseId(null);
